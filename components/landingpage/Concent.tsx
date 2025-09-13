@@ -70,7 +70,7 @@ export default function ConsentPage() {
                 <Checkbox
                   id="consent"
                   checked={agreed}
-                  onCheckedChange={setAgreed}
+                  onCheckedChange={(checked) => setAgreed(checked === true)}
                   className="mt-1"
                 />
                 <label

@@ -105,7 +105,7 @@ export default function DashboardPage() {
               Dashboard
             </h1>
             <p className="text-amber-700">
-              Track your contributions and earnings
+              Track your contribution and earnings
             </p>
           </div>
 

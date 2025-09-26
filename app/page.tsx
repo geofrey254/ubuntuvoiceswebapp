@@ -1,10 +1,9 @@
 import React from "react";
-import LandingPage from "@/components/landingpage/Hero";
-
+import UbuntuVoicesDashboard from "@/components/landingpage/Hero";
 export default function page() {
   return (
     <>
-      <LandingPage />
+      <UbuntuVoicesDashboard />
     </>
   );
 }
